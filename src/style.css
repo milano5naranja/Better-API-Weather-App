@@ -38,18 +38,24 @@ li {
   padding: 20px;
   border: 1px solid rgb(131, 103, 103);
   border-radius: 6px;
-  background: radial-gradient(
-    328px at 2.9% 15%,
-    rgb(191, 224, 251) 0%,
-    rgb(232, 233, 251) 25.8%,
-    rgb(252, 239, 250) 50.8%,
-    rgb(234, 251, 251) 77.6%,
-    rgb(240, 251, 244) 100.7%
+ background: linear-gradient(179.1deg, rgb(247, 238, 238) -1.9%, rgb(247, 202, 201) 44.9%, rgb(145, 168, 208) 96.1%);
   );
 }
 
 .overview {
   margin-bottom: 20px;
+}
+
+.btn-primary  {
+  background-color: #91A8D0;
+  color: black;
+  border-color: #91A8D0;
+  font-size: 20px;
+}
+
+.btn-primary:hover {
+ background-color:  rgb(14, 200, 138);
+ border-color: rgb(14, 200, 138);
 }
 
 .weather-temperature img {
@@ -79,17 +85,20 @@ small {
 }
 
 .weather-forecast {
-  margin-top: 20px;
+  margin-top: 25px;
   text-align: center;
+  border-radius: 30px;
+  padding: 10px;
 }
 
 .weather-forecast-date {
   font-size: 22px;
 }
 
-.weather-forecast-temperature-min {
-  opacity: 0.5;
+.weather-forecast-min {
+  opacity: 0.6;
+  font-size: 26px;
 }
 .weather-forecast-temperatures {
-  font-size: 20px;
+  font-size: 18px;
 }
